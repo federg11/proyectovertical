@@ -1,0 +1,6 @@
+Colores del logo
+Rojo: #dc001d
+Negro: #151515
+Blanco luminoso: #fcfcfc
+Blanco Oscuro: #F8F8F8
+
