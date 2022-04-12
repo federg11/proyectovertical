@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles.css"/>
+    <linl rel="stylesheet" href="../../dalmacioVelez.css"/>
     <title>DalmacioVelez</title>
 </head>
 <header>
@@ -51,26 +52,96 @@
           <h1 class="text-warning fs-1 ">Dalmacion Velez Sarsfield  <span class="badge bg-secondary badge bg-warning text-dark">NUEVO!!</span></h1>
         </blockquote>
       </figure>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <!--comienza Carrusel-->
+      <div id="sliderDalmacioVelez" class="carousel container w-auto" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#sliderDalmacioVelez" data-bs-slide-to="0" class="active" style="background-color: orange;" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#sliderDalmacioVelez" data-bs-slide-to="1" style="background-color: orange;" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#sliderDalmacioVelez" data-bs-slide-to="2" style="background-color: orange;" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../../public/imagenes/forest-7031441_640.jpg" class="d-block w-50" alt="...">
+            <img src="../../public/imagenes/forest-7031441_640.jpg" class="d-block w-75 mx-auto" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Seguridad</h5>
+              <p class="text-warning">Un ambiente privado y seguro para toda familia</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="../../public/imagenes/mountain-7101737_640.jpg" class="d-block w-50" alt="...">
+            <img src="../../public/imagenes/imgEjemplo.jpg" class="d-block w-75  mx-auto" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Confort</h5>
+              <p class="text-warning">Un complejo que brinda picina, solarium y amenitis</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="../../public/imagenes/imgEjemplo.jpg" class="d-block w-50" alt="...">
+            <img src="../../public/imagenes/mountain-7101737_640.jpg" class="d-block w-75  mx-auto" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-warning">Cercania</h5>
+              <p class="text-warning">El barrio se encuentra en un equilibrio entre cercania y tranquilidad</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#sliderDalmacioVelez" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#sliderDalmacioVelez" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!--Termina Carrusel-->
+      <!--Acordeon texto-->
+      <div class="accordion accordion-flush container" id="accordionFlushExample" style="padding-top: 25px; padding-bottom: 25px;">
+        <div class="accordion-item ">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed text-warning bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Prestaciones
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse text-warning" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed text-warning bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Servicios
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse text-warning" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed text-warning bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Ubicacion
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse text-warning" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+      <!--Fin Acordeon texto-->
+      <!--Video youtube-->
+      <div class="container">
+        <div class="ratio ratio-16x9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WH1o-7m8L-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!--Fin Video youtube-->
+      <!--Footer-->
+      <footer class="main-footer bg-dark" style="padding-top: 30px;">
+        <div class="row ">
+          <div class="col-sm">
+            <p class="text-center text-warning">ESTE ES EL FOOTER / TODOS LOS DERECHOS RESERVADOS </p>
+          </div>
+        </div>
+      </footer>
+
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
